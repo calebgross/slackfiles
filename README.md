@@ -1,0 +1,5 @@
+# Slackfiles
+
+Slack has message and storage [limits](https://get.slack.help/hc/en-us/articles/115002422943-Message-and-storage-limits-on-the-Free-plan) on its free plan. Workspaces on the free plan share a total of 5GB of file storage space. With a team of just a few dozen people, it's quite easy to push past that 5GB storage limit. What's more—an administrator can't just hit the "clean files" button and restore that space. Users having files in private messages/channels must manually remove those files on their own. Have fun convincing your team to go and do that by hand.
+
+`slackfiles.sh` (the best names are descriptive, [right](https://www.targetmarketingmag.com/article/choosing-a-business-name-descriptive-unique/all/)?) provides an easy command-line interface to manage file storage on Slack.
